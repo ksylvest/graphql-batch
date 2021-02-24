@@ -1,0 +1,8 @@
+inherit_from:
+  - https://shopify.github.io/ruby-style-guide/rubocop.yml
+  - .rubocop_todo.yml
+
+AllCops:
+  TargetRubyVersion: 2.7
+  Exclude:
+    - vendor/**/*
